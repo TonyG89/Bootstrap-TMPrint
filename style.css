@@ -1,0 +1,52 @@
+.sizes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.type_of_cloth {
+  background-color: #fadada;
+  padding: 5px;
+  margin: 5px;
+}
+
+.table-column {
+  padding: 10px;
+  color: black;
+  border: 2px solid brown;
+  background-color: burlywood;
+}
+
+.table-row {
+  text-align: center;
+  padding: 5px;
+}
+
+.table-title {
+  text-align: center;
+}
+
+.watermark {
+  background: url "../img/blank-goods/tshirt-grey-blank.png";
+  background-color: red;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0.5;
+  z-index: 99;
+  color: white;
+  content: "dsadasdsa";
+}
+/*# sourceMappingURL=style.css.map */
